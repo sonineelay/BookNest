@@ -68,3 +68,9 @@ BookNest is a web application for managing books using the MERN (MongoDB, Expres
 - To add a book, click on the "Add Book" button and fill in the required details.
 - To view, update, or delete a book, click on the respective buttons next to the book entry.
 - Going From Light Mode To Dark Mode Clicking a Single Button
+
+## Demo : How Actual It Works
+
+https://github.com/sonineelay/BookNest/assets/170390816/de3f8f35-4172-4227-8097-4e2085745dd5
+
+
