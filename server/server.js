@@ -9,9 +9,15 @@ const db = require('./db');
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
+// Import and configure CORS middleware
+const cors = require('cors');
+app.use(cors());
+
 // Import and use the book routes as middleware
 const bookRoutes = require('./routes/bookRoutes');
 app.use('/books', bookRoutes);
+
+
 
 // Start the server on port 3000
 const PORT = 3000;
